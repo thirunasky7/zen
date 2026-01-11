@@ -1,0 +1,425 @@
+<?php include('header.php');?>
+
+<div class="hero-wrap js-fullheight" style="background-image: url('images/bg_1.jpg');" data-stellar-background-ratio="0.5">
+    <div class="overlay"></div>
+    <div class="container">
+        <div class="row no-gutters slider-text js-fullheight align-items-center" data-scrollax-parent="true">
+            <div class="col-md-8 ftco-animate mt-5 pt-md-5" data-scrollax=" properties: { translateY: '70%' }">
+                <div class="row">
+                    <div class="col-md-7">
+                        <p class="mb-4 pl-md-5 line" data-scrollax="properties: { translateY: '30%', opacity: 1.6 }">A Web Development startup company</p>
+                    </div>
+                </div>
+                <h1 class="mb-4" data-scrollax="properties: { translateY: '30%', opacity: 1.6 }">Experienced for <br>web Development and mobile app Development and solution</h1>
+                <p><a href="#" class="btn btn-primary px-4 py-3">Read more</a></p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<section class="ftco-intro">
+    <div class="container">
+        <div class="row justify-content-end">
+            <div class="col-md-7">
+                <div class="row no-gutters d-flex align-items-stretch">
+                    <div class="col-md-4 d-flex align-self-stretch ftco-animate">
+                        <div class="services-1">
+                            <div class="line"></div>
+                            <div class="icon"><span class="flaticon-bolt"></span></div>
+                            <div class="media-body">
+                                <h3 class="heading mb-3">Information Technology Consultancy</h3>
+                            </div>
+                        </div>      
+                    </div>
+                    <div class="col-md-4 d-flex align-self-stretch ftco-animate">
+                        <div class="services-1 color-1">
+                            <div class="line"></div>
+                            <div class="icon"><span class="flaticon-light-bulb"></span></div>
+                            <div class="media-body">
+                                <h3 class="heading mb-3">Product Design Strategy</h3>
+                            </div>
+                        </div>      
+                    </div>
+                    <div class="col-md-4 d-flex align-self-stretch ftco-animate">
+                        <div class="services-1 color-2">
+                            <div class="line"></div>
+                            <div class="icon"><span class="flaticon-cyber"></span></div>
+                            <div class="media-body">
+                                <h3 class="heading mb-3">Mobile Applications &amp; Web Development</h3>
+                            </div>
+                        </div>      
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="ftco-section">
+    <div class="container">
+        <div class="row justify-content-center pb-5">
+            <div class="col-lg-6 heading-section text-center ftco-animate">
+                <h2 class="mb-4">More than <span>3+</span> years we provide <span>IT Solution</span></h2>
+                <p>Zennexs is a modern web development startup helping businesses and startups build powerful digital products. We specialize in websites, web apps, SaaS platforms, and scalable solutions.</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="services-2 text-center">
+                    <div class="icon">
+                        <span class="flaticon-web-programming"></span>
+                    </div>
+                    <div class="text">
+                        <h3>Web Development</h3>
+                        <p>Responsive and SEO-friendly websites.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <img src="images/services.svg" class="img-fluid" alt="">
+            </div>
+            <div class="col-md-4">
+                <div class="services-2 text-center">
+                    <div class="icon">
+                        <span class="flaticon-secure"></span>
+                    </div>
+                    <div class="text">
+                        <h3>E-Commerce</h3>
+                        <p>Secure & scalable online stores.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="ftco-counter img" id="section-counter">
+    <div class="container">
+        <div class="row no-gutters d-flex">
+            <div class="col-md-6 d-flex">
+                <div class="img d-flex align-self-stretch" style="background-image:url(images/about.jpg);"></div>
+            </div>
+            <div class="col-md-6 p-3 pl-md-5 py-5 bg-primary">
+                <div class="row justify-content-start pb-3">
+                    <div class="col-md-12 heading-section heading-section-white ftco-animate">
+                        <h2 class="mb-4">Consult us here in <span>Zennexs</span></h2>
+                        <p>Get expert advice for your digital transformation journey. We help businesses leverage technology for growth and efficiency.</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6 justify-content-center counter-wrap ftco-animate">
+                        <div class="block-18 mb-4">
+                            <div class="text">
+                                <strong class="number" data-number="15">0</strong>
+                                <span>Project Complete</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 justify-content-center counter-wrap ftco-animate">
+                        <div class="block-18 mb-4">
+                            <div class="text">
+                                <strong class="number" data-number="10">0</strong>
+                                <span>Happy Clients</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 justify-content-center counter-wrap ftco-animate">
+                        <div class="block-18 mb-4">
+                            <div class="text">
+                                <strong class="number" data-number="18">0</strong>
+                                <span>Business Partners</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 justify-content-center counter-wrap ftco-animate">
+                        <div class="block-18 mb-4">
+                            <div class="text">
+                                <strong class="number" data-number="30">0</strong>
+                                <span>IT Consultant</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="ftco-section services-section">
+    <div class="container">
+        <div class="row justify-content-center pb-5">
+            <div class="col-md-6 heading-section text-center ftco-animate">
+                <h2 class="mb-4">Our Exclusive <span>Web development</span> Services</h2>
+            </div>
+        </div>
+        <div class="row d-flex no-gutters">
+            <div class="col-md-3 d-flex align-self-stretch ftco-animate">
+                <div class="media block-6 services d-block">
+                    <div class="line"></div>
+                    <div class="icon"><span class="flaticon-web-programming"></span></div>
+                    <div class="media-body">
+                        <h3 class="heading mb-3">Web Development</h3>
+                        <p>Custom websites built with modern technologies and best practices.</p>
+                    </div>
+                </div>      
+            </div>
+            <div class="col-md-3 d-flex align-self-stretch ftco-animate">
+                <div class="media block-6 services d-block">
+                    <div class="line"></div>
+                    <div class="icon"><span class="flaticon-stats"></span></div>
+                    <div class="media-body">
+                        <h3 class="heading mb-3">Web Applications</h3>
+                        <p>Scalable web applications for business automation and growth.</p>
+                    </div>
+                </div>    
+            </div>
+            <div class="col-md-3 d-flex align-self-stretch ftco-animate">
+                <div class="media block-6 services d-block">
+                    <div class="line"></div>
+                    <div class="icon"><span class="flaticon-secure"></span></div>
+                    <div class="media-body">
+                        <h3 class="heading mb-3">E-commerce</h3>
+                        <p>Secure online stores with payment integration and inventory management.</p>
+                    </div>
+                </div>      
+            </div>
+            <div class="col-md-3 d-flex align-self-stretch ftco-animate">
+                <div class="media block-6 services d-block">
+                    <div class="line"></div>
+                    <div class="icon"><span class="flaticon-presentation"></span></div>
+                    <div class="media-body">
+                        <h3 class="heading mb-3">UX/UI Design</h3>
+                        <p>User-centered design for optimal user experience and engagement.</p>
+                    </div>
+                </div>      
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="ftco-section ftco-no-pt">
+    <div class="container">
+        <div class="row justify-content-center pb-5">
+            <div class="col-md-12 heading-section text-center ftco-animate">
+                <h2 class="mb-4">Our<span>Services</span></h2>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6 col-lg-3 ftco-animate">
+                <div class="project">
+                    <div class="img">
+                        <img src="images/work-1.jpg" class="img-fluid" alt="Web Development">
+                    </div>
+                    <div class="text text-center">
+                        <span>Web Development</span>
+                        <h3><a href="project.php">Best Solution for Information Technology</a></h3>
+                    </div>
+                    <a href="images/work-1.jpg" class="icon image-popup d-flex justify-content-center align-items-center">
+                        <span class="fa fa-expand"></span>
+                    </a>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-3 ftco-animate">
+                <div class="project">
+                    <div class="img">
+                        <img src="images/work-2.jpg" class="img-fluid" alt="Web Application">
+                    </div>
+                    <div class="text text-center">
+                        <span>Web Application</span>
+                        <h3><a href="project.php">Creative Idea Build Up</a></h3>
+                    </div>
+                    <a href="images/work-2.jpg" class="icon image-popup d-flex justify-content-center align-items-center">
+                        <span class="fa fa-expand"></span>
+                    </a>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-3 ftco-animate">
+                <div class="project">
+                    <div class="img">
+                        <img src="images/work-3.jpg" class="img-fluid" alt="E-commerce">
+                    </div>
+                    <div class="text text-center">
+                        <span>E-commerce</span>
+                        <h3><a href="project.php">Web Design Concept &amp; Web Analysis</a></h3>
+                    </div>
+                    <a href="images/work-3.jpg" class="icon image-popup d-flex justify-content-center align-items-center">
+                        <span class="fa fa-expand"></span>
+                    </a>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-3 ftco-animate">
+                <div class="project">
+                    <div class="img">
+                        <img src="images/work-4.jpg" class="img-fluid" alt="UI/UX Design">
+                    </div>
+                    <div class="text text-center">
+                        <span>UI/UX Design</span>
+                        <h3><a href="project.php">Strategy for Enduring Customer Relationships</a></h3>
+                    </div>
+                    <a href="images/work-4.jpg" class="icon image-popup d-flex justify-content-center align-items-center">
+                        <span class="fa fa-expand"></span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="ftco-section bg-light ftco-faqs">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6 order-md-last">
+                <div class="img img-video d-flex align-self-stretch align-items-center justify-content-center justify-content-md-center mb-4 mb-sm-0" style="background-image:url(images/about.jpg);">
+                </div>
+                <div class="d-flex mt-3">
+                    <div class="img img-2 mr-md-2 w-100" style="background-image:url(images/about-1.jpg);"></div>
+                    <div class="img img-2 ml-md-2 w-100" style="background-image:url(images/about-2.jpg);"></div>
+                </div>
+            </div>
+
+            <div class="col-lg-6">
+                <div class="heading-section mb-5 mt-5 mt-lg-0">
+                    <h2 class="mb-3">Frequently Asked Questions</h2>
+                </div>
+                <div id="accordion" class="myaccordion w-100" aria-multiselectable="true">
+                    <div class="card">
+                        <div class="card-header p-0" id="headingOne">
+                            <h2 class="mb-0">
+                                <button href="#collapseOne" class="d-flex py-3 px-4 align-items-center justify-content-between btn btn-link" data-parent="#accordion" data-toggle="collapse" aria-expanded="true" aria-controls="collapseOne">
+                                    <p class="mb-0">How can we help your business?</p>
+                                    <i class="fa" aria-hidden="true"></i>
+                                </button>
+                            </h2>
+                        </div>
+                        <div class="collapse show" id="collapseOne" role="tabpanel" aria-labelledby="headingOne">
+                            <div class="card-body py-3 px-0">
+                                <ol>
+                                    <li>Custom web development solutions</li>
+                                    <li>E-commerce platform development</li>
+                                    <li>Mobile application development</li>
+                                    <li>IT consultancy and strategy</li>
+                                    <li>Digital transformation services</li>
+                                </ol>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="card-header p-0" id="headingTwo" role="tab">
+                            <h2 class="mb-0">
+                                <button href="#collapseTwo" class="d-flex py-3 px-4 align-items-center justify-content-between btn btn-link" data-parent="#accordion" data-toggle="collapse" aria-expanded="false" aria-controls="collapseTwo">
+                                    <p class="mb-0">How long does it take to build a website?</p>
+                                    <i class="fa" aria-hidden="true"></i>
+                                </button>
+                            </h2>
+                        </div>
+                        <div class="collapse" id="collapseTwo" role="tabpanel" aria-labelledby="headingTwo">
+                            <div class="card-body py-3 px-0">
+                                <ol>
+                                    <li>Basic website: 2-4 weeks</li>
+                                    <li>E-commerce site: 4-8 weeks</li>
+                                    <li>Custom web application: 6-12 weeks</li>
+                                    <li>Enterprise solution: 12+ weeks</li>
+                                    <li>Timeline depends on project complexity</li>
+                                </ol>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="card-header p-0" id="headingThree" role="tab">
+                            <h2 class="mb-0">
+                                <button href="#collapseThree" class="d-flex py-3 px-4 align-items-center justify-content-between btn btn-link" data-parent="#accordion" data-toggle="collapse" aria-expanded="false" aria-controls="collapseThree">
+                                    <p class="mb-0">Can you help with IT solutions for business?</p>
+                                    <i class="fa" aria-hidden="true"></i>
+                                </button>
+                            </h2>
+                        </div>
+                        <div class="collapse" id="collapseThree" role="tabpanel" aria-labelledby="headingTwo">
+                            <div class="card-body py-3 px-0">
+                                <ol>
+                                    <li>IT infrastructure setup</li>
+                                    <li>Cloud migration services</li>
+                                    <li>Database management</li>
+                                    <li>System integration</li>
+                                    <li>Technical support & maintenance</li>
+                                </ol>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="card-header p-0" id="headingFour" role="tab">
+                            <h2 class="mb-0">
+                                <button href="#collapseFour" class="d-flex py-3 px-4 align-items-center justify-content-between btn btn-link" data-parent="#accordion" data-toggle="collapse" aria-expanded="false" aria-controls="collapseFour">
+                                    <p class="mb-0">What are the requirements for IT solutions?</p>
+                                    <i class="fa" aria-hidden="true"></i>
+                                </button>
+                            </h2>
+                        </div>
+                        <div class="collapse" id="collapseFour" role="tabpanel" aria-labelledby="headingTwo">
+                            <div class="card-body py-3 px-0">
+                                <p>We begin with understanding your business needs, technical requirements, budget constraints, and timeline. Our team then creates a customized solution plan that aligns with your business goals and provides maximum ROI.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="ftco-appointment ftco-section img" style="background-image: url(images/bg_2.jpg);">
+    <div class="overlay"></div>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 half ftco-animate">
+                <h2 class="mb-4">Don't hesitate to contact us</h2>
+                <form action="#" class="appointment">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <input type="text" class="form-control" placeholder="Your Name">
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <input type="text" class="form-control" placeholder="Email">
+                            </div>
+                        </div>
+                        <div class="col-md-12">
+                            <div class="form-group">
+                                <div class="form-field">
+                                    <div class="select-wrap">
+                                        <div class="icon"><span class="fa fa-chevron-down"></span></div>
+                                        <select name="" id="" class="form-control">
+                                            <option value="">Services</option>
+                                            <option value="">Web Development</option>
+                                            <option value="">Database Analysis</option>
+                                            <option value="">Server Security</option>
+                                            <option value="">UX/UI Strategy</option>
+                                            <option value="">Branding</option>
+                                            <option value="">Applications</option>
+                                        </select>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-12">
+                            <div class="form-group">
+                                <textarea name="" id="" cols="30" rows="7" class="form-control" placeholder="Message"></textarea>
+                            </div>
+                        </div>
+                        <div class="col-md-12">
+                            <div class="form-group">
+                                <input type="submit" value="Send message" class="btn btn-primary py-3 px-4">
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
+
+<?php include('footer.php');?>
