@@ -1,8 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Zennexs.com</title>
-    <meta charset="utf-8">
+    <title>Web Development Company in Chennai | ZENNEXS Software Solutions</title>
+<meta name="description" content="ZENNEXS is a leading web and software development company in Chennai offering custom web apps, mobile apps, and IT services for businesses.">
+<meta name="keywords" content="Web Development Company in Chennai, Software Company Chennai, IT Services Chennai, Zennexs">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://zennexs.com/">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     
     <link href="https://fonts.googleapis.com/css?family=Montserrat:200,300,400,500,600,700,800&display=swap" rel="stylesheet">
