@@ -1,24 +1,56 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Web Development Company in Chennai | ZENNEXS Software Solutions</title>
-<meta name="description" content="ZENNEXS is a leading web and software development company in Chennai offering custom web apps, mobile apps, and IT services for businesses.">
-<meta name="keywords" content="Web Development Company in Chennai, Software Company Chennai, IT Services Chennai, Zennexs">
-<meta name="robots" content="index, follow">
-<link rel="canonical" href="https://zennexs.com/">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:200,300,400,500,600,700,800&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="css/animate.css">
-    <link rel="stylesheet" href="css/owl.carousel.min.css">
-    <link rel="stylesheet" href="css/owl.theme.default.min.css">
-    <link rel="stylesheet" href="css/magnific-popup.css">
-    <link rel="stylesheet" href="css/flaticon.css">
-    <link rel="stylesheet" href="css/style.css">
-    <style>
-        /* Mega Menu Styles */
-        .nav-item.dropdown {
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- SEO Title -->
+  <title>Healthcare Software Development Company | Hospital Solutions by Zennexs</title>
+
+  <!-- SEO Description -->
+  <meta name="description" content="Zennexs is a healthcare software development company delivering hospital management systems, medical software, and digital healthcare solutions for hospitals and clinics.">
+
+  <!-- Keywords -->
+  <meta name="keywords" content="healthcare software development, hospital software company, hospital management system, healthcare IT solutions, medical software development, clinic management software, healthcare SaaS">
+
+  <!-- Google Indexing -->
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://hospitals.zennexs.com/">
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Healthcare Software Development Company | Zennexs">
+  <meta property="og:description" content="We build secure, scalable healthcare and hospital software solutions for modern medical organizations.">
+  <meta property="og:url" content="https://hospitals.zennexs.com/">
+  <meta property="og:type" content="website">
+
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Hospital & Healthcare Software Development">
+  <meta name="twitter:description" content="Custom hospital management systems and healthcare software solutions by Zennexs.">
+  <link rel="stylesheet" href="css/style.css">
+  <!-- Schema Markup -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "SoftwareCompany",
+    "name": "Zennexs Healthcare Software Solutions",
+    "url": "https://hospitals.zennexs.com/",
+    "description": "Healthcare software development company specializing in hospital management systems and medical IT solutions.",
+    "applicationCategory": "Healthcare Software",
+    "operatingSystem": "Web, Cloud"
+  }
+  </script>
+
+  <style>
+    body { margin:0; font-family: Arial, sans-serif; color:#333; line-height:1.6; }
+    header { background:#0b5ed7; color:#fff; padding:60px 20px; text-align:center; }
+    section { padding:50px 20px; max-width:1100px; margin:auto; }
+    h1, h2, h3 { color:#0b5ed7; }
+    .grid { display:flex; gap:20px; flex-wrap:wrap; }
+    .card { border:1px solid #ddd; padding:20px; border-radius:6px; flex:1; min-width:250px; }
+    .cta { background:#198754; color:#fff; padding:12px 20px; text-decoration:none; border-radius:5px; }
+    footer { background:#f8f9fa; text-align:center; padding:20px; }
+      .nav-item.dropdown {
             position: static !important;
         }
         
@@ -92,13 +124,7 @@
             text-align: center; /* Added for better alignment */
         }
         
-        .mega-menu-featured {
-            background: #f8f9fa;
-            padding: 25px;
-            border-radius: 8px;
-            margin-top: 10px;
-        }
-        
+       
         .mega-menu-featured h5 {
             color: #333;
             margin-bottom: 15px;
@@ -248,9 +274,9 @@
 		header, .ftco_navbar {
 		margin-top: 0 !important;
 	}
-
-    </style>
+  </style>
 </head>
+
 <body>
 <div class="wrap">
     <div class="container">
@@ -272,7 +298,6 @@
         </div>
     </div>
 </div>
-
 <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
     <div class="container">
         <a class="navbar-brand" href="index.php">Zen<span>nexs</span></a>
@@ -325,12 +350,13 @@
                                         <li><a href="#"><i class="fa fa-code-fork"></i> <span>API Development</span></a></li>
                                     </ul>
                                 </div>
-                                 <div class="mega-menu-column">
+                                <div class="mega-menu-column">
                                     <h4>Our Services</h4>
                                     <ul>
                                         <li><a href="health-care-service.php"><i class="fa fa-cloud"></i> <span>Health Care Service</span></a></li>
                                     </ul>
                                 </div>
+                           
                             </div>
                         </div>
                     </div>
@@ -344,4 +370,86 @@
         </div>
     </div>
 </nav>
+<!-- HERO SECTION -->
+<header>
+  <h1>Healthcare Software Development Company</h1>
+  <p>Building intelligent hospital & healthcare software solutions for digital transformation</p>
+  <a href="https://hospitals.zennexs.com/" class="cta">View a Demo</a>
+</header>
 
+<!-- ABOUT -->
+<section>
+  <h2>About Zennexs Healthcare Solutions</h2>
+  <p>
+    Zennexs is a trusted <strong>software development company</strong> specializing in
+    <strong>hospital and healthcare software solutions</strong>. We help hospitals,
+    clinics, and medical organizations streamline operations, improve patient care,
+    and achieve digital transformation through secure and scalable technology.
+  </p>
+  <p>
+    Our healthcare software platforms are designed to meet industry standards,
+    ensure data security, and support modern medical workflows.
+  </p>
+</section>
+
+<!-- SERVICES -->
+<section>
+  <h2>Our Healthcare Software Services</h2>
+  <div class="grid">
+    <div class="card">
+      <h3>Hospital Management System (HMS)</h3>
+      <p>End-to-end hospital management software including patient records, billing, appointments, and administration.</p>
+    </div>
+    <div class="card">
+      <h3>Clinic Management Software</h3>
+      <p>Custom solutions for clinics to manage patients, scheduling, prescriptions, and reporting.</p>
+    </div>
+    <div class="card">
+      <h3>Electronic Medical Records (EMR)</h3>
+      <p>Secure EMR systems that ensure compliance, data accuracy, and fast access to patient information.</p>
+    </div>
+    <div class="card">
+      <h3>Healthcare SaaS Platforms</h3>
+      <p>Cloud-based healthcare applications built for scalability, performance, and security.</p>
+    </div>
+  </div>
+</section>
+
+<!-- WHY CHOOSE US -->
+<section>
+  <h2>Why Choose Zennexs</h2>
+  <ul>
+    <li>✔ Healthcare-focused software development expertise</li>
+    <li>✔ Secure & compliant medical software solutions</li>
+    <li>✔ Custom development tailored to hospital needs</li>
+    <li>✔ Scalable cloud-based architecture</li>
+    <li>✔ Ongoing support & maintenance</li>
+  </ul>
+</section>
+
+<!-- SEO CONTENT -->
+<section>
+  <h2>Healthcare IT Solutions for Modern Hospitals</h2>
+  <p>
+    Our healthcare IT solutions empower hospitals to improve operational efficiency,
+    enhance patient experience, and adopt digital healthcare systems.
+    From hospital management software to advanced healthcare platforms,
+    Zennexs delivers reliable technology solutions that scale with your organization.
+  </p>
+  <p>
+    We partner with healthcare providers to build innovative medical software that
+    supports automation, data analytics, and patient-centric care models.
+  </p>
+</section>
+
+<!-- CONTACT -->
+<section id="contact">
+  <h2>Get Started with Healthcare Software</h2>
+  <p>
+    Looking for a reliable healthcare software development partner?
+    Contact Zennexs to discuss your hospital or healthcare software requirements.
+  </p>
+  <a href="mailto:hr@zennexs.com" class="cta">Contact Us</a>
+</section>
+
+<?php include('footer.php');?>
