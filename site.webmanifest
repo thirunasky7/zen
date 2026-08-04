@@ -1,0 +1,18 @@
+{
+  "name": "Zen",
+  "short_name": "Zen",
+  "description": "Mobile app and web development company — Laravel, React, Flutter, WordPress, Shopify.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#0033a1",
+  "lang": "en",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ]
+}
