@@ -1,135 +1,257 @@
-# Privacy Policy – AI Reminder
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Privacy Policy for AI Reminder by Thirunavukarasu. Learn how account, reminder, Supabase and advertising data are handled.">
+  <title>Privacy Policy | AI Reminder</title>
+  <style>
+    :root {
+      --bg: #f4f7fb;
+      --surface: #ffffff;
+      --text: #182230;
+      --muted: #667085;
+      --primary: #3157d5;
+      --primary-dark: #2444ad;
+      --border: #e5eaf2;
+      --soft: #eef3ff;
+      --shadow: 0 18px 55px rgba(26, 43, 79, .08);
+    }
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--text);
+      font-family: Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif;
+      line-height: 1.7;
+    }
+    a { color: var(--primary); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    .hero {
+      background: linear-gradient(135deg, #182d68 0%, #3157d5 58%, #6487f0 100%);
+      color: #fff;
+      padding: 58px 20px 86px;
+    }
+    .hero-inner, main, footer { width: min(920px, calc(100% - 32px)); margin: 0 auto; }
+    .brand {
+      display: inline-flex; align-items: center; gap: 10px;
+      font-weight: 750; letter-spacing: .2px; font-size: 17px;
+    }
+    .brand-mark {
+      width: 38px; height: 38px; border-radius: 12px;
+      display: grid; place-items: center; background: rgba(255,255,255,.17);
+      font-size: 20px;
+    }
+    .hero h1 { margin: 28px 0 8px; font-size: clamp(32px, 5vw, 48px); line-height: 1.12; }
+    .hero p { margin: 0; color: rgba(255,255,255,.84); max-width: 650px; }
+    .meta { display: flex; flex-wrap: wrap; gap: 10px 22px; margin-top: 22px; color: rgba(255,255,255,.9); font-size: 14px; }
+    main { margin-top: -38px; position: relative; padding-bottom: 44px; }
+    .layout { display: grid; grid-template-columns: 220px minmax(0, 1fr); gap: 22px; align-items: start; }
+    .toc, .content, .contact-card {
+      background: var(--surface); border: 1px solid var(--border); border-radius: 18px; box-shadow: var(--shadow);
+    }
+    .toc { padding: 20px; position: sticky; top: 18px; }
+    .toc h2 { font-size: 13px; text-transform: uppercase; letter-spacing: .09em; color: var(--muted); margin: 0 0 12px; }
+    .toc a { display: block; padding: 6px 0; color: #475467; font-size: 13px; line-height: 1.4; }
+    .content { padding: clamp(22px, 4vw, 42px); }
+    .intro {
+      padding: 17px 19px; border-radius: 13px; background: var(--soft);
+      border: 1px solid #dce6ff; margin-bottom: 28px;
+    }
+    .intro p { margin: 0; }
+    section { padding: 22px 0; border-bottom: 1px solid var(--border); scroll-margin-top: 20px; }
+    section:first-of-type { padding-top: 0; }
+    section:last-of-type { border-bottom: 0; padding-bottom: 0; }
+    h2 { font-size: 21px; line-height: 1.35; margin: 0 0 12px; }
+    h3 { font-size: 16px; margin: 18px 0 7px; }
+    p { margin: 8px 0; }
+    ul, ol { padding-left: 22px; margin: 9px 0; }
+    li { margin: 5px 0; }
+    .muted { color: var(--muted); }
+    .contact-card { padding: 22px; margin-top: 22px; box-shadow: none; }
+    .contact-card h2 { margin-bottom: 5px; }
+    .email {
+      display: inline-block; margin-top: 10px; padding: 10px 15px;
+      background: var(--primary); color: #fff; border-radius: 10px; font-weight: 650;
+    }
+    .email:hover { background: var(--primary-dark); text-decoration: none; }
+    .notice {
+      margin-top: 18px; padding: 14px 16px; border-left: 4px solid #d69a27;
+      background: #fff8e8; border-radius: 8px; color: #654b19; font-size: 14px;
+    }
+    footer { color: var(--muted); text-align: center; font-size: 13px; padding: 0 0 34px; }
+    @media (max-width: 760px) {
+      .hero { padding: 42px 0 70px; }
+      .layout { grid-template-columns: 1fr; }
+      .toc { position: static; }
+      .toc nav { display: grid; grid-template-columns: 1fr 1fr; column-gap: 14px; }
+      .content { padding: 23px 20px; }
+    }
+    @media (max-width: 420px) {
+      .toc nav { grid-template-columns: 1fr; }
+      .meta { display: block; }
+      .meta span { display: block; margin-top: 5px; }
+    }
+  </style>
+</head>
+<body>
+  <header class="hero">
+    <div class="hero-inner">
+      <div class="brand"><span class="brand-mark" aria-hidden="true">✓</span> AI Reminder</div>
+      <h1>Privacy Policy</h1>
+      <p>Your privacy matters. This page explains what information AI Reminder may process, why it is used, and how you can request account and data deletion.</p>
+      <div class="meta">
+        <span><strong>Developer:</strong> Thirunavukarasu</span>
+        <span><strong>Effective date:</strong> November 11, 2026</span>
+      </div>
+    </div>
+  </header>
 
-**Effective Date:** November 11, 2026
+  <main>
+    <div class="layout">
+      <aside class="toc" aria-label="Table of contents">
+        <h2>On this page</h2>
+        <nav>
+          <a href="#introduction">1. Introduction</a>
+          <a href="#information">2. Information collected</a>
+          <a href="#use">3. How we use information</a>
+          <a href="#supabase">4. Supabase services</a>
+          <a href="#ads">5. Google AdMob</a>
+          <a href="#sharing">6. Sharing</a>
+          <a href="#security">7. Security</a>
+          <a href="#deletion">8. Account deletion</a>
+          <a href="#retention">9. Data retention</a>
+          <a href="#children">10. Children's privacy</a>
+          <a href="#third-party">11. Third-party policies</a>
+          <a href="#changes">12. Policy changes</a>
+          <a href="#contact">13. Contact</a>
+        </nav>
+      </aside>
 
-**App Name:** AI Reminder  
-**Developer:** Thirunavukarasu  
-**Contact Email:** thirunasky7@gmail.com
+      <article class="content">
+        <div class="intro">
+          <p><strong>App:</strong> AI Reminder<br>
+          <strong>Developer:</strong> Thirunavukarasu<br>
+          <strong>Contact:</strong> <a href="mailto:thirunasky7@gmail.com">thirunasky7@gmail.com</a></p>
+        </div>
 
-## 1. Introduction
+        <section id="introduction">
+          <h2>1. Introduction</h2>
+          <p>AI Reminder respects your privacy. This Privacy Policy explains how information may be collected, used, stored, and shared when you use the AI Reminder mobile application.</p>
+        </section>
 
-AI Reminder respects your privacy. This policy explains how we collect, use, store, and protect information when you use our mobile application.
+        <section id="information">
+          <h2>2. Information We Collect</h2>
+          <h3>Account information</h3>
+          <ul>
+            <li>Email address used to register and sign in.</li>
+            <li>Account identifier generated by our authentication provider.</li>
+            <li>Authentication and account-security information necessary to verify your account.</li>
+          </ul>
+          <h3>Reminder information</h3>
+          <ul>
+            <li>Reminder titles and descriptions that you enter.</li>
+            <li>Reminder dates, times, categories, and preferences.</li>
+            <li>Other information you choose to save in the application.</li>
+          </ul>
+          <h3>Device and advertising information</h3>
+          <p>Google AdMob and its SDK may process information such as IP address, advertising or device identifiers, app interactions, advertisement interactions, and diagnostic information. The information processed depends on the SDK version, app configuration, device settings, and applicable consent choices.</p>
+        </section>
 
-## 2. Information We Collect
+        <section id="use">
+          <h2>3. How We Use Information</h2>
+          <p>Information may be used to:</p>
+          <ul>
+            <li>Create and manage your account and authenticate sign-ins.</li>
+            <li>Create, store, and synchronize reminders.</li>
+            <li>Provide app features and reminder notifications.</li>
+            <li>Maintain app security and prevent misuse or fraud.</li>
+            <li>Understand errors and improve app performance.</li>
+            <li>Display and measure advertisements through Google AdMob.</li>
+          </ul>
+        </section>
 
-Depending on your use of the application, we may collect:
+        <section id="supabase">
+          <h2>4. Supabase Cloud Services</h2>
+          <p>AI Reminder uses Supabase for cloud database and authentication services. Account information and reminder information may be transmitted to and stored using Supabase to provide sign-in, data storage, and synchronization features.</p>
+          <p>Supabase privacy information: <a href="https://supabase.com/privacy" target="_blank" rel="noopener noreferrer">https://supabase.com/privacy</a>.</p>
+        </section>
 
-### Account Information
-- Email address used for registration and login.
-- Account identifier generated by our authentication provider.
-- Authentication information required to verify your account.
+        <section id="ads">
+          <h2>5. Google AdMob Advertisements</h2>
+          <p>AI Reminder uses Google AdMob to display advertisements. AdMob and its SDK may process information such as IP address, advertising identifiers, device information, app interactions, ad interactions, and diagnostic information for advertising delivery, measurement, fraud prevention, and related services.</p>
+          <p>Whether advertisements are personalized may depend on your settings, consent, location, and applicable requirements.</p>
+          <p>Google Privacy Policy: <a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer">https://policies.google.com/privacy</a><br>
+          AdMob Help: <a href="https://support.google.com/admob/" target="_blank" rel="noopener noreferrer">https://support.google.com/admob/</a>.</p>
+        </section>
 
-### Reminder Information
-- Reminder titles and descriptions.
-- Reminder dates and times.
-- Reminder settings and preferences.
-- Other information you voluntarily enter into the application.
+        <section id="sharing">
+          <h2>6. Sharing of Information</h2>
+          <p>We do not sell your personal information. Information may be processed by service providers needed to operate the app:</p>
+          <ul>
+            <li><strong>Supabase:</strong> cloud database and authentication services.</li>
+            <li><strong>Google AdMob:</strong> advertising delivery, measurement, and related services.</li>
+          </ul>
+          <p>These providers process information under their own applicable privacy policies and service terms. Their processing may include uses described in those policies.</p>
+        </section>
 
-### Device and Advertising Information
-Our advertising provider may collect:
-- Advertising identifiers and device identifiers.
-- IP address.
-- Advertising interactions and app activity.
-- Diagnostic and performance information.
+        <section id="security">
+          <h2>7. Data Security</h2>
+          <p>We use reasonable technical and organizational measures intended to protect information. These may include secure network connections, access controls, and backend security measures. No method of transmission or electronic storage is completely secure, and absolute security cannot be guaranteed.</p>
+        </section>
 
-The exact information collected depends on the advertising SDK version and configuration.
+        <section id="deletion">
+          <h2>8. Account and Data Deletion</h2>
+          <p>You may request deletion of your AI Reminder account and associated personal information by emailing <a href="mailto:thirunasky7@gmail.com?subject=AI%20Reminder%20-%20Account%20Deletion%20Request">thirunasky7@gmail.com</a>.</p>
+          <p>Please use the subject <strong>AI Reminder – Account Deletion Request</strong> and include the email address registered with your account. We may contact you to verify that you own the account before processing the request.</p>
+          <p>After verifying a request, we will delete the account and associated personal information, including reminder information stored in our systems, subject to applicable legal retention requirements. Information that must be retained for legal, security, or fraud-prevention purposes will be retained only as permitted or required. Backup copies may remain temporarily under our backup retention procedures.</p>
+          <p><strong>Important:</strong> An account deletion request must be processed even if you no longer have the app installed. Contact us using the email address above if you cannot access the in-app deletion option.</p>
+        </section>
 
-## 3. How We Use Information
+        <section id="retention">
+          <h2>9. Data Retention</h2>
+          <p>We retain information for as long as necessary to provide the app, fulfill the purposes described in this policy, and meet applicable legal obligations. Following a verified deletion request, personal information will be deleted from active systems, subject to permitted legal retention and temporary backup retention.</p>
+        </section>
 
-We use collected information to:
-- Create and manage user accounts.
-- Authenticate users.
-- Save and synchronize reminders.
-- Provide reminder notifications and application features.
-- Improve application performance.
-- Display and measure advertisements.
-- Prevent fraud and maintain application security.
+        <section id="children">
+          <h2>10. Children's Privacy</h2>
+          <p>AI Reminder is not specifically designed to collect personal information from children under 13. We do not knowingly collect personal information from children under 13 without appropriate authorization where required by law. If you believe a child has provided personal information inappropriately, contact us so we can review the matter.</p>
+        </section>
 
-## 4. Supabase Cloud Services
+        <section id="third-party">
+          <h2>11. Third-Party Privacy Policies</h2>
+          <ul>
+            <li>Supabase: <a href="https://supabase.com/privacy" target="_blank" rel="noopener noreferrer">Privacy Policy</a></li>
+            <li>Google: <a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer">Privacy Policy</a></li>
+            <li>Google AdMob: <a href="https://support.google.com/admob/" target="_blank" rel="noopener noreferrer">AdMob Help</a></li>
+          </ul>
+        </section>
 
-AI Reminder uses Supabase for cloud database and authentication services.
+        <section id="changes">
+          <h2>12. Changes to This Privacy Policy</h2>
+          <p>We may update this policy when our app features, service providers, or legal requirements change. We will publish the updated policy on this page and revise the effective date where appropriate.</p>
+        </section>
 
-Account information and reminders may be transmitted to and stored using Supabase.
+        <section id="contact">
+          <h2>13. Contact Us</h2>
+          <p>For privacy questions, account deletion requests, or other concerns, contact:</p>
+          <div class="contact-card">
+            <h2>Thirunavukarasu</h2>
+            <p class="muted">Developer of AI Reminder</p>
+            <a class="email" href="mailto:thirunasky7@gmail.com">Email: thirunasky7@gmail.com</a>
+          </div>
+        </section>
 
-We use Supabase to authenticate users and synchronize their reminder information across supported devices.
+        <div class="notice">
+          <strong>Developer reminder:</strong> Before publishing, confirm that this policy accurately matches the app's actual Supabase tables, authentication setup, AdMob SDK configuration, consent flow, retention periods, and working deletion process. Update this page whenever those practices change.
+        </div>
+      </article>
+    </div>
+  </main>
 
-Supabase Privacy Policy: https://supabase.com/privacy
-
-## 5. Google AdMob Advertisements
-
-AI Reminder uses Google AdMob to display advertisements.
-
-AdMob and its SDK may collect device identifiers, advertising IDs, IP addresses, app interactions, and diagnostic information.
-
-This information may be used for advertising delivery, advertising measurement, fraud prevention, and related services.
-
-Advertising personalization and consent are handled according to applicable Google policies and regional requirements.
-
-Google Privacy Policy: https://policies.google.com/privacy
-
-Google AdMob: https://support.google.com/admob/
-
-## 6. Sharing of Information
-
-We do not sell users' personal information.
-
-Information may be processed by service providers necessary to operate our application:
-
-- Supabase: Authentication and cloud database services.
-- Google AdMob: Advertising delivery and measurement.
-
-These providers process information according to their respective privacy policies and applicable terms.
-
-## 7. Data Security
-
-We use reasonable security measures to protect personal information, including encrypted communication where supported, access controls, and appropriate backend security configurations.
-
-No internet transmission or electronic storage method can be guaranteed to be completely secure.
-
-## 8. Account and Data Deletion
-
-Users can request deletion of their AI Reminder account and associated personal information.
-
-To request deletion, users may:
-
-- Use the account deletion option within the application, if available.
-- Visit our account deletion webpage.
-- Contact us at thirunasky7@gmail.com.
-
-When an account deletion request is verified, we will delete the associated account and personal data, including reminder information stored in our systems, subject to any applicable legal retention requirements.
-
-Any data retained for legitimate legal or security reasons will be handled according to applicable requirements.
-
-## 9. Data Retention
-
-We retain information only for as long as necessary to provide our services and meet applicable legal obligations.
-
-When an account is deleted, associated personal information will be deleted from active systems. Backup copies may remain temporarily until they are overwritten or securely deleted according to our backup procedures.
-
-## 10. Children's Privacy
-
-AI Reminder is not specifically designed to collect personal information from children under 13.
-
-We do not knowingly collect personal information from children under 13 without appropriate authorization where required by law.
-
-## 11. Third-Party Privacy Policies
-
-Our application uses the following third-party services:
-
-- Supabase: https://supabase.com/privacy
-- Google: https://policies.google.com/privacy
-- Google AdMob: https://support.google.com/admob/
-
-## 12. Changes to This Policy
-
-We may update this Privacy Policy when application features, services, or legal requirements change.
-
-Updates will be published on this page with a revised effective date.
-
-## 13. Contact Information
-
-For privacy questions, account deletion requests, or other concerns:
-
-**App:** AI Reminder  
-**Developer:** Thirunavukarasu  
-**Email:** thirunasky7@gmail.com
+  <footer>
+    © 2026 AI Reminder · Privacy Policy · Thirunavukarasu
+  </footer>
+</body>
+</html>
